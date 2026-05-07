@@ -35,33 +35,29 @@ README.md → Project documentation
 ## ⚙️ How to Use
 
 ### 1. Give execute permission
-```bash
+
 chmod +x backup.sh
-2. Run the script
+
+### 2. Run the script
 ./backup.sh /path/to/source-folder
-Example
+## Example
 ./backup.sh /var/www/html
-📁 Output
+
+### 📁 Output
 Backups are stored as:
 /backups/backup_YYYY-MM-DD_HH-MM-SS.tar.gz
-Logs are stored in:
+# Logs are stored in:
 backup.log
-⏰ Optional (Automation with Cron)
 
-To run backup daily at 2 AM:
 
-crontab -e
-
-Add this line:
-
-0 2 * * * /path/to/backup.sh /var/www/html
-🔥 Learning Outcomes
+### 🔥 Learning Outcomes
 Linux file system understanding
 Bash scripting fundamentals
 Automation using cron jobs
 Error handling in shell scripts
 Real-world DevOps workflow simulation
-👨‍💻 Author
 
-Talal Liaquat
+### 👨‍💻 Author
+
+# Talal Liaquat
 Beginner DevOps & Computer Science Student
