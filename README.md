@@ -1,5 +1,4 @@
-🐧 Linux Backup Automation Script
-===============================
+# 🐧 Linux Backup Automation Script
 
 ## 📌 Overview
 This project is a Bash-based automation script that creates compressed backups of a specified directory. It is designed as a beginner DevOps practice project to understand Linux scripting, automation, logging, and system-level task handling.
@@ -27,8 +26,8 @@ This project is a Bash-based automation script that creates compressed backups o
 
 ## 📂 Project Structure
 
-backup.sh # Main backup script
-README.md # Project documentation
+backup.sh → Main backup script
+README.md → Project documentation
 
 
 ---
@@ -36,6 +35,7 @@ README.md # Project documentation
 ## ⚙️ How to Use
 
 ### 1. Give execute permission
+```bash
 chmod +x backup.sh
 2. Run the script
 ./backup.sh /path/to/source-folder
@@ -51,7 +51,9 @@ backup.log
 To run backup daily at 2 AM:
 
 crontab -e
+
 Add this line:
+
 0 2 * * * /path/to/backup.sh /var/www/html
 🔥 Learning Outcomes
 Linux file system understanding
