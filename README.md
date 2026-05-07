@@ -32,32 +32,32 @@ README.md → Project documentation
 
 ---
 
-## ⚙️ How to Use
+# ⚙️ How to Use
 
-### 1. Give execute permission
+## 1. Give execute permission
 
 chmod +x backup.sh
 
-### 2. Run the script
+## 2. Run the script
 ./backup.sh /path/to/source-folder
-## Example
+### Example
 ./backup.sh /var/www/html
 
-### 📁 Output
+## 📁 Output
 Backups are stored as:
 /backups/backup_YYYY-MM-DD_HH-MM-SS.tar.gz
 # Logs are stored in:
 backup.log
 
 
-### 🔥 Learning Outcomes
+## 🔥 Learning Outcomes
 Linux file system understanding
 Bash scripting fundamentals
 Automation using cron jobs
 Error handling in shell scripts
 Real-world DevOps workflow simulation
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
-# Talal Liaquat
+### Talal Liaquat
 Beginner DevOps & Computer Science Student
