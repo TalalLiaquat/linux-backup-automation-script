@@ -35,6 +35,9 @@ README.md # Project documentation
 ## ⚙️ How to Use
 
 ### 1. Give execute permission
+## ⚙️ How to Use
+
+### 1. Give execute permission
 ```bash
 chmod +x backup.sh
 2. Run the script
@@ -51,9 +54,7 @@ backup.log
 To run backup daily at 2 AM:
 
 crontab -e
-
-Add:
-
+Add this line:
 0 2 * * * /path/to/backup.sh /var/www/html
 🔥 Learning Outcomes
 Linux file system understanding
