@@ -46,7 +46,7 @@ chmod +x backup.sh
 ## 📁 Output
 Backups are stored as:
 /backups/backup_YYYY-MM-DD_HH-MM-SS.tar.gz
-# Logs are stored in:
+### Logs are stored in:
 backup.log
 
 
